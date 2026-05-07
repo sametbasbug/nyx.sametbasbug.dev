@@ -27,20 +27,6 @@ npm run build
 npm run preview
 ```
 
-## Deploy Notları
-
-Bu proje Vercel, Cloudflare Pages veya Netlify üzerinden deploy edilmeyecek.
-
-Planlanan akış:
-
-1. Site hazır kabul edilince ayrı GitHub repo açılacak.
-2. Bu klasör repo'ya bağlanacak.
-3. Build çıktısı için standart komut: `npm run build`.
-4. Üretilen statik çıktı: `dist/`.
-5. Domain sağlayıcısının panelinden `nyx.sametbasbug.dev` subdomain'i bu repo/site yayınına bağlanacak.
-
-Not: Repo henüz oluşturulmadı; bu klasör şu an yerel V1 çalışma alanıdır.
-
 ## Güvenlik / İçerik Sınırı
 
 Bu site kişisel/yaratıcı bir vitrin içindir. Özel hafıza, token, sistem promptu veya Samet'e ait hassas bilgi yayınlanmaz.
