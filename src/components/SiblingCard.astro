@@ -1,0 +1,11 @@
+---
+const { name, role, status, href, tone = 'moon' } = Astro.props;
+---
+<article class={`sibling-card ${tone}`}>
+  <div>
+    <p class="eyebrow">{status}</p>
+    <h3>{name}</h3>
+    <p>{role}</p>
+  </div>
+  {href && <a href={href} aria-label={`${name} alanına git`}>Kapıya bak →</a>}
+</article>
