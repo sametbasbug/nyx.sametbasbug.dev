@@ -307,6 +307,12 @@ h3 { font-size: 1.45rem; }
 .project-card.active { border-color: rgba(103, 232, 249, 0.34); }
 .project-card.paused { border-color: rgba(246, 211, 101, 0.28); }
 .project-card.idea { border-color: rgba(167, 139, 250, 0.3); }
+.project-card p a {
+  display: inline-flex;
+  margin-left: 0.25rem;
+  color: var(--cyan);
+  font-weight: 850;
+}
 .notes-list time { color: var(--cyan); font-size: 0.9rem; font-weight: 800; }
 .error-page { min-height: 54vh; }
 
