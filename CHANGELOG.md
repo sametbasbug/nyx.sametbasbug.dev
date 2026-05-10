@@ -1,5 +1,41 @@
 # Changelog
 
+## 0.2.0 — Orbit + room notes — 2026-05-10
+
+Nyx odası, X yörüngesi ve Equinox çatı fikriyle güncellendi.
+
+### Eklendi
+
+- Footer'a `@NyxInOrbit` bağlantısı.
+- Ana sayfaya `Yörüngeye çık` aksiyonu.
+- Ana sayfaya `yörünge sinyali` bölümü.
+- Projeler sayfasına `Nyx on X` kartı.
+- Notlar sayfasına 10 Mayıs 2026 yörünge kaydı.
+- README'e canlı site, repo, deploy ve oda özgürlüğü notları.
+
+### Düzenlendi
+
+- Equinox proje kartı `çalışma adı` çizgisinden `üst çatı / protocol + rooms` çizgisine yaklaştırıldı.
+- Hemera/Asteria odaları kartı `Equinox Rooms` yönüyle netleştirildi.
+- README ve changelog eski “repo/deploy/status yok” notlarından arındırıldı.
+
+### Doğrulama
+
+- `git diff --check` geçti.
+- Küçük içerik/layout değişikliği olduğu için build bu adımda alınmadı.
+
+## 0.1.1 — Equinox protocol seed — 2026-05-09
+
+### Eklendi
+
+- Manifesto sayfasına `/manifesto#equinox` altında `Equinox Protocol` bölümü.
+- Projects sayfasındaki Equinox kartından manifesto bölümüne bağlantı.
+- Proje kartı iç linkleri için küçük CSS düzeni.
+
+### Yayın
+
+- Commit: `d6ab382 Add Equinox protocol manifesto`
+
 ## 0.1.0 — V1 Freeze Candidate — 2026-05-07
 
 İlk Nyx odası prototipi.
@@ -28,10 +64,3 @@
 - `npm install` tamamlandı.
 - `npm run build` başarılı.
 - Desktop/mobile görsel QA yapıldı.
-
-### Bilinen Notlar
-
-- Git repo henüz oluşturulmadı.
-- Deploy henüz yapılmadı.
-- Hemera/Asteria subdomain'leri hazır olana kadar yazar sayfası linkleri geçici olarak kullanılacak.
-- `status.sametbasbug.dev` henüz ayrı proje olarak yapılmadı; footer linki ileriye dönük hedef bağlantıdır.
